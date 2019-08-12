@@ -8,7 +8,7 @@
 
 function takeANumber(queue) {
 queue.push(1)
-return `Welcome, You are number ${queue[1]}.`
+return `Welcome, You are number ${queue}.`
 }
 
 // creates new function nowServing with 1 parameter
