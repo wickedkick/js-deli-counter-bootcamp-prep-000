@@ -8,7 +8,7 @@
 // 
 function takeANumber(queue) {
 let n = 0
-queue.push(n + 1)
+queue.push(n++)
 return `Welcome, You are number ${queue[queue.length - 1]}.`
 }
 
