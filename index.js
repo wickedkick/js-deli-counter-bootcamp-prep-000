@@ -4,11 +4,11 @@
 // people.push(name)
 // // here we return the persons name along with the length of the queue
 //   return `Welcome, ${name}. You are number ${people.length} in line.`
-// }
-
+// } queue [4, 5, 6] 
+// 
 function takeANumber(queue) {
 queue.push(1)
-return `Welcome, You are number ${queue.length}.`
+return `Welcome, You are number ${queue.length - 1}.`
 }
 
 // creates new function nowServing with 1 parameter
