@@ -6,11 +6,8 @@
 //   return `Welcome, ${name}. You are number ${people.length} in line.`
 // }
 
-here we define the function take a number with 2 parameters
-function takeANumber(people, name) {
-// here we are adding the persons name to the people Array
+function takeANumber(number) {
 people.push(name)
-// here we return the persons name along with the length of the queue
   return `Welcome, ${name}. You are number ${people.length} in line.`
 }
 
