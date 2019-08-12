@@ -6,7 +6,7 @@
 //   return `Welcome, ${name}. You are number ${people.length} in line.`
 // } queue [4, 5, 6] 
 // 
-var n = 1
+let n = 1
 
 function takeANumber(queue) {
 queue.push(n++)
