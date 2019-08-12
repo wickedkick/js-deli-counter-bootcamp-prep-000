@@ -7,8 +7,8 @@
 // }
 
 function takeANumber(number) {
-people.push(name)
-  return `Welcome, ${name}. You are number ${people.length} in line.`
+number.push()
+  return `Welcome, You are number ${number.length} in line.`
 }
 
 // creates new function nowServing with 1 parameter
