@@ -6,7 +6,7 @@
 //   return `Welcome, ${name}. You are number ${people.length} in line.`
 // }
 
-function takeANumber(number) {
+function takeANumber(queue) {
 number = []
 
   return `Welcome, You are number ${number++} in line.`
