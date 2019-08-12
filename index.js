@@ -7,7 +7,7 @@
 // } queue [4, 5, 6] 
 // 
 function takeANumber(queue) {
-queue.push()
+queue.push(1++)
 return `Welcome, You are number ${queue[queue.length - 1]}.`
 }
 
